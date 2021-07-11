@@ -1,0 +1,118 @@
+.cardContainer {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-family: 'Noto Sans JP', sans-serif;
+ margin-top: 4rem;
+ width: 60%;
+ margin: auto;
+ margin-bottom: 2rem;
+}
+
+.activeCasesContainer {
+    padding: 57px 33px 16px 33px;
+    width: 12rem;
+    height: 179px;
+    box-shadow: 0 20px 20px rgba(0,0,0, 0.2), 0px 0px 50px rgba(0,0,0, 0.2);
+    border-radius: 46px;
+    border-bottom: 8px solid purple;
+    position: relative;
+}
+
+.activeCasesContainer::after {
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ background-color: rgba(174, 0, 243, 0.2);
+ border-radius: 46px;
+ transition: transform 200ms ease-in;
+ transform: scaleX(0);
+ transform-origin: right;
+}
+
+.activeCasesContainer:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.recoveredCasesContainer {
+    padding: 57px 33px 16px 33px;
+    width: 12rem;
+    height: 179px;
+    box-shadow: 0 20px 20px rgba(0,0,0, 0.2), 0px 0px 50px rgba(0,0,0, 0.2);
+    border-radius: 46px;
+    border-bottom: 8px solid green;
+    position: relative;
+}
+
+.recoveredCasesContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 170, 2, 0.2);
+    border-radius: 46px;
+    transition: transform 200ms ease-in;
+    transform: scaleX(0);
+    transform-origin: right;
+   }
+   
+   .recoveredCasesContainer:hover::after {
+       transform: scaleX(1);
+       transform-origin: left;
+   }
+.deathContainer {
+    padding: 57px 33px 16px 33px;
+    width: 12rem;
+    height: 179px;
+    box-shadow: 0 20px 20px rgba(0,0,0, 0.2), 0px 0px 50px rgba(0,0,0, 0.2);
+    border-radius: 46px;
+    border-bottom: 8px solid #ff3838;
+    position: relative;
+}
+
+.deathContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(214, 4, 4, 0.2);
+    border-radius: 46px;
+    transition: transform 200ms ease-in;
+    transform: scaleX(0);
+    transform-origin: right;
+   }
+   
+   .deathContainer:hover::after {
+       transform: scaleX(1);
+       transform-origin: left;
+   }
+
+.mainHeading {
+color: grey;
+font-weight: 900
+}
+
+.cardCount {
+    font-size: 35px;
+    letter-spacing: 1px;
+    transform: scale3d(1,1,1);
+}
+
+.date {
+    font-weight: 900;
+    color: grey;
+    margin-top: 3px;
+}
+
+.footerText {
+    font-weight: 900;
+    margin-top: 11px;
+}

@@ -1,0 +1,39 @@
+.headerRowContainer {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
+.headerTextContainer {
+    grid-column: span 5;
+    margin-left: 18rem;
+    text-align: center;
+}
+
+.mainText {
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerImageContainer {
+    background-image: url("../../assets//globe2.svg");
+    background-size: contain;
+    width: 534px;
+    height: 386px;
+    margin-top: 2.4rem;
+    grid-column: span 5;
+    margin-left: 10rem;
+}
+
+.subText {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 19px;
+    margin-left: 4.8rem;
+}
