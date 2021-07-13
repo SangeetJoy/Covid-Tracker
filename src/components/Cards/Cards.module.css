@@ -122,29 +122,40 @@ font-weight: 900
 
 @media (max-width: 480px) {
     .cardContainer {
-        width: 175vh;
-        margin-left: 6rem;
-        height: 34rem;
+        width: 85vh;
+        margin-left: 2.8rem;
+        display: block;
+
+        
     } 
 
     .activeCasesContainer {
-        width: 16rem;
-        height: 288px;
-        font-size: 28px;
-    padding-left: 42px;
+
+        width: 82%;
+        font-size: 30px;
+        padding-left: 42px;
+        margin: auto;
+        height: 35vh;
+        margin-bottom: 1.3rem;
     }
 
     .recoveredCasesContainer {
-        width: 16rem;
-        height: 288px;  
-        font-size: 28px;
-    padding-left: 42px;  
+ 
+        width: 82%;
+        font-size: 30px;
+        padding-left: 42px;
+        margin: auto;
+        height: 35vh;
+        margin-bottom: 1.3rem;
     }
 
     .deathContainer {
+
         width: 16rem;
-        height: 288px;
-        font-size: 28px;
-    padding-left: 42px;
+        width: 82%;
+        font-size: 30px;
+        padding-left: 42px;
+        margin: auto;
+        height: 35vh;
     }
 }

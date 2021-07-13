@@ -8,6 +8,6 @@
 
 @media (max-width: 415px) {
     .countryPickerContainer {
-        margin-left: 8rem
+margin-left: 1vh;
     }
   }
