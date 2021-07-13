@@ -5,3 +5,9 @@
     margin-top: 2rem;
     margin-bottom: 3rem
 }
+
+@media (max-width: 415px) {
+    .countryPickerContainer {
+        margin-left: 8rem
+    }
+  }

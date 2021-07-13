@@ -1,3 +1,5 @@
+
+
 .cardContainer {
  display: flex;
  justify-content: space-between;
@@ -17,6 +19,7 @@
     border-radius: 46px;
     border-bottom: 8px solid purple;
     position: relative;
+    /* border: 2px purple solid */
 }
 
 .activeCasesContainer::after {
@@ -115,4 +118,33 @@ font-weight: 900
 .footerText {
     font-weight: 900;
     margin-top: 11px;
+}
+
+@media (max-width: 480px) {
+    .cardContainer {
+        width: 175vh;
+        margin-left: 6rem;
+        height: 34rem;
+    } 
+
+    .activeCasesContainer {
+        width: 16rem;
+        height: 288px;
+        font-size: 28px;
+    padding-left: 42px;
+    }
+
+    .recoveredCasesContainer {
+        width: 16rem;
+        height: 288px;  
+        font-size: 28px;
+    padding-left: 42px;  
+    }
+
+    .deathContainer {
+        width: 16rem;
+        height: 288px;
+        font-size: 28px;
+    padding-left: 42px;
+    }
 }

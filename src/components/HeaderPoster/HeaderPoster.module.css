@@ -37,3 +37,9 @@
     font-size: 19px;
     margin-left: 4.8rem;
 }
+
+@media (max-width: 415px) {
+    .headerRowContainer {
+       margin-left: -15rem;
+    } 
+}
