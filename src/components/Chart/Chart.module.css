@@ -2,3 +2,9 @@
     margin: auto;
     width: 65%;
 }
+
+@media (max-width: 415px) {
+    .chartContainer {
+       width: 263%;
+    }
+  }

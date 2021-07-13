@@ -39,7 +39,26 @@
 }
 
 @media (max-width: 415px) {
-    .headerRowContainer {
-       margin-left: -15rem;
+    .headerImageContainer {
+        width: 218vh;
+        height: 36vh;
     } 
+    .headerRowContainer {
+        width: 120vh;
+        display: flex;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .headerTextContainer {
+        text-align: center;
+        margin-left: 58px;
+        width: 191vh;
+    }
+
+    .mainText {
+        font-size: 67px;
+        letter-spacing: 0;
+        margin-top: 0;
+    }
 }
